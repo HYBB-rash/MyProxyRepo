@@ -6,10 +6,12 @@ allow-lan: false
 mode: Rule
 log-level: info
 proxies:
-  - name: "🤦‍♂️ Nint Socket Proxy",
-    type: "socks5",
-    server: "localhost",
-    port: 1080,
+  - {
+      "name": "🤦‍♂️ Nint Socket Proxy",
+      "type": "socks5",
+      "server": "localhost",
+      "port": 1080,
+    }
 proxy-groups:
   - name: 😡 Nint
     type: select
