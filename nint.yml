@@ -18,4 +18,4 @@ proxy-groups:
     proxies:
       - 🤦‍♂️ Nint Socket Proxy
 rules:
-  - - IP-CIDR,10.110.0.0/16,😡 Nint
+  - IP-CIDR,10.110.0.0/16,😡 Nint
