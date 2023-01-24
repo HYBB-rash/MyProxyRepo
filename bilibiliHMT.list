@@ -1,5 +1,0 @@
-# 内容：Bilibili 哔哩哔哩 港澳台 CDN 代理
-# 数量：1条
-DOMAIN-SUFFIX,biliapi.com
-DOMAIN-SUFFIX,biliapi.net
-DOMAIN,upos-hz-mirrorakam.akamaized.net
