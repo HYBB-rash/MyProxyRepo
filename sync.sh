@@ -6,7 +6,7 @@ while true; do
 
     git add .
     git commit -m "Automatic commit"
-    git push onedrive
+    git push
 
     sleep 10
 done
