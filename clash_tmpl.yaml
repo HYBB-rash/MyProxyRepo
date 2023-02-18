@@ -1,0 +1,25 @@
+port: 7890
+socks-port: 7891
+redir-port: 7892
+tproxy-port: 7893
+mixed-port: 7890
+allow-lan: true
+bind-address: "*"
+mode: rule
+log-level: info
+ipv6: true
+profile:
+  tracing: true
+dns:
+  enable: true
+  ipv6: true
+  listen: 0.0.0.0:53
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  use-hosts: true
+  default-nameserver:
+    - "[2402:4e00::]:53"
+    - 119.29.29.29
+  nameserver:
+    - "[2402:4e00::]:53"
+    - 119.29.29.29
