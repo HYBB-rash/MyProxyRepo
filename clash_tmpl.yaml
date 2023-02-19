@@ -28,4 +28,6 @@ ssid:
   cellual: PROXY
   "201": DIRECT
   "201_5G": DIRECT
-  "201_5"
+  "201_5g": DIRECT
+  "201-5G": DIRECT
+  "201-5"
