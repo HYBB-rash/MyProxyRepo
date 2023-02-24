@@ -1,4 +1,4 @@
-const WIFI_DONT_NEED_PROXYS = ['xiaomi_Alan_5G_1'];
+const WIFI_DONT_NEED_PROXYS = ['201_5G', '201_5g', '201-5'];
 const CURRENT_WIFI_SSID_KEY = 'current_wifi_ssid';
 
 if (wifiChanged()) {
