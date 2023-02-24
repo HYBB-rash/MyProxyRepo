@@ -1,4 +1,4 @@
-const WIFI_DONT_NEED_PROXYS = ['201_5G', '201_5g', '201-5'];
+const WIFI_DONT_NEED_PROXYS = ['201_5G', '201_5g', '201-5g', '201-5G'];
 const CURRENT_WIFI_SSID_KEY = 'current_wifi_ssid';
 
 if (wifiChanged()) {
