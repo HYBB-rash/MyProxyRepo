@@ -19,7 +19,8 @@ interval = 60
 
 [[custom_groups]]
 name = "🚀 Proxy"
-type = "select`[]♻️ Auto`[]🔮 Load-Balance`[]🌏 Main World`[]🌏 Third World`[]🇭🇰 Hong Kong`[]🇨🇳 Taiwan`[]🇸🇬 Singapore`[]🇯🇵 Japan`[]🇺🇲 United States`[]🇰🇷 Korea`[]🇩🇪 Germany`[]🇬🇧 Great Britain`[]DIRECT
+type = "select"
+rule = ["[]♻️ Auto", "[]🔮 Load-Balance", "[]🌏 Main World", "[]🌏 Third World", "[]🇭🇰 Hong Kong", "[]🇨🇳 Taiwan", "[]🇸🇬 Singapore", "[]🇯🇵 Japan", "[]🇺🇲 United States", "[]🇰🇷 Korea", "[]🇩🇪 Germany", "[]🇬🇧 Great Britain", "[]DIRECT"]
 [[custom_groups]]
 name = "🚀 Manual"
 type = "select`.*
