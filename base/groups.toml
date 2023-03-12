@@ -1,5 +1,5 @@
 [[custom_groups]]
-name = "♻️ Auto"
+name = "[]♻️ Auto"
 type = "url-test"
 rule = [".*"]
 url = "http://cp.cloudflare.com/generate_204"
@@ -17,7 +17,7 @@ strategy = "consistent-hashing"
 [[custom_groups]]
 name = "[]🚀 Proxy"
 type = "select"
-rule = ["♻️ Auto", "🔮 LoadBalance", "[]🌏 MainWorld", "[]🌏 ThirdWorld", "[]🇭🇰 HongKong", "[]🇨🇳 Taiwan", "🇸🇬 Singapore", "[]🇯🇵 Japan", "[]🇺🇲 UnitedStates", "[]🇰🇷 Korea", "[]🇩🇪 Germany", "[]🇬🇧 GreatBritain", "[]DIRECT"]
+rule = ["[]♻️ Auto", "🔮 LoadBalance", "[]🌏 MainWorld", "[]🌏 ThirdWorld", "[]🇭🇰 HongKong", "[]🇨🇳 Taiwan", "🇸🇬 Singapore", "[]🇯🇵 Japan", "[]🇺🇲 UnitedStates", "[]🇰🇷 Korea", "[]🇩🇪 Germany", "[]🇬🇧 GreatBritain", "[]DIRECT"]
 
 [[custom_groups]]
 name = "[]🚀 Manual"
@@ -32,22 +32,22 @@ rule = ["[]DIRECT", "[]🎯 Global", "[]🇨🇳 China", "(Nint)"]
 [[custom_groups]]
 name = "📲 Telegram"
 type = "select"
-rule = ["♻️ Auto", "🔮 LoadBalance", "🇸🇬 Singapore", "[]🇭🇰 HongKong", "[]🇨🇳 Taiwan", "[]🇯🇵 Japan", "[]🇺🇲 UnitedStates", "[]🇰🇷 Korea", "[]🇬🇧 GreatBritain", "[]🇩🇪 Germany", "[]🌏 ThirdWorld", "[]🚀 Proxy", "[]🚀 Manual"]
+rule = ["[]♻️ Auto", "🔮 LoadBalance", "🇸🇬 Singapore", "[]🇭🇰 HongKong", "[]🇨🇳 Taiwan", "[]🇯🇵 Japan", "[]🇺🇲 UnitedStates", "[]🇰🇷 Korea", "[]🇬🇧 GreatBritain", "[]🇩🇪 Germany", "[]🌏 ThirdWorld", "[]🚀 Proxy", "[]🚀 Manual"]
 
 [[custom_groups]]
 name = "🇿 ZhiHu"
 type = "select" 
-rule = ["[]DIRECT", "[]🎯 Global", "♻️ Auto", "🔮 LoadBalance", "[]🌏 MainWorld", "[]🌏 ThirdWorld", "[]🚀 Proxy", "[]🚀 Manual"]
+rule = ["[]DIRECT", "[]🎯 Global", "[]♻️ Auto", "🔮 LoadBalance", "[]🌏 MainWorld", "[]🌏 ThirdWorld", "[]🚀 Proxy", "[]🚀 Manual"]
 
 [[custom_groups]]
 name = "🐦 Twitter"
 type = "select"
-rule = ["♻️ Auto", "🔮 LoadBalance", "[]🌏 MainWorld", "[]🌏 ThirdWorld", "[]🚀 Proxy", "[]🚀 Manual"]
+rule = ["[]♻️ Auto", "🔮 LoadBalance", "[]🌏 MainWorld", "[]🌏 ThirdWorld", "[]🚀 Proxy", "[]🚀 Manual"]
 
 [[custom_groups]]
 name = "🇻 Wechat"
 type = "select" 
-rule = ["[]DIRECT", "[]🎯 Global", "♻️ Auto", "[]🇨🇳 China", "[]🌏 MainWorld", "[]🌏 ThirdWorld", "[]🚀 Proxy", "[]🚀 Manual"]
+rule = ["[]DIRECT", "[]🎯 Global", "[]♻️ Auto", "[]🇨🇳 China", "[]🌏 MainWorld", "[]🌏 ThirdWorld", "[]🚀 Proxy", "[]🚀 Manual"]
 
 [[custom_groups]]
 name = "📢 Google"
@@ -57,7 +57,7 @@ rule = ["[]🇺🇲 UnitedStates", "[]🌏 MainWorld", "[]🌏 ThirdWorld", "[]�
 [[custom_groups]]
 name = "📹 Youtube"
 type = "select"
-rule = ["♻️ Auto", "🔮 LoadBalance", "[]🌏 MainWorld", "[]🌏 ThirdWorld", "[]🚀 Proxy", "[]🚀 Manual"]
+rule = ["[]♻️ Auto", "🔮 LoadBalance", "[]🌏 MainWorld", "[]🌏 ThirdWorld", "[]🚀 Proxy", "[]🚀 Manual"]
 
 [[custom_groups]]
 name = "🎥 Netflix"
@@ -86,7 +86,7 @@ rule = ["[]DIRECT", "[]🎯 Global", "[]🇨🇳 China", "[]🇨🇳 Taiwan", "[
 [[custom_groups]]
 name = "🌍 ProxyMedia"
 type = "select"
-rule = ["♻️ Auto", "🔮 LoadBalance", "[]🌏 MainWorld", "[]🌏 ThirdWorld", "[]🚀 Proxy", "[]🚀 Manual"]
+rule = ["[]♻️ Auto", "🔮 LoadBalance", "[]🌏 MainWorld", "[]🌏 ThirdWorld", "[]🚀 Proxy", "[]🚀 Manual"]
 
 [[custom_groups]]
 name = "🌏 ChinaMedia"
@@ -126,7 +126,7 @@ rule = ["[]DIRECT", "🇨🇳 ChinaAuto", "[]🇨🇳 China", "[]🇭🇰 HongKo
 [[custom_groups]]
 name = "🐟 Final"
 type = "select"
-rule = ["♻️ Auto", "🔮 LoadBalance", "[]🎯 Global", "[]🌏 MainWorld", "[]🌏 ThirdWorld", "[]🚀 Proxy", "[]🚀 Manual"]
+rule = ["[]♻️ Auto", "🔮 LoadBalance", "[]🎯 Global", "[]🌏 MainWorld", "[]🌏 ThirdWorld", "[]🚀 Proxy", "[]🚀 Manual"]
 
 [[custom_groups]]
 name = "🆎 AdBlock"
