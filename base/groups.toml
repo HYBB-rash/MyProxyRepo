@@ -1,9 +1,4 @@
 [[custom_groups]]
-name = "Proxy"
-type = "select"
-rule = [".*", "AUTO", "[]DIRECT", ".*"]
-
-[[custom_groups]]
 name = "♻️ Auto"
 type = "url-test"
 rule = [".*"]
@@ -136,17 +131,17 @@ rule = ["♻️ Auto", "🔮 LoadBalance", "🎯 Global", "🌏 MainWorld", "�
 [[custom_groups]]
 name = "🆎 AdBlock"
 type = "select"
-rule = ["REJECT", "🎯 Global"]
+rule = ["[]REJECT", "🎯 Global"]
 
 [[custom_groups]]
 name = "🛑 BanAD"
 type = "select"
-rule = ["REJECT", "🎯 Global"]
+rule = ["[]REJECT", "🎯 Global"]
 
 [[custom_groups]]
 name = "🍃 BanProgramAD"
 type = "select"
-rule = ["REJECT", "🎯 Global"]
+rule = ["[]REJECT", "🎯 Global"]
 
 [[custom_groups]]
 name = "🇨🇳 China"
