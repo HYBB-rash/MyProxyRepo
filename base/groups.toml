@@ -24,7 +24,8 @@ rule = ["[]♻️ Auto", "[]🔮 LoadBalance", "[]🌏 MainWorld", "[]🌏 Third
 
 [[custom_groups]]
 name = "🚀 Manual"
-type = "select`.*
+type = "select"
+rule = [".*"]
 [[custom_groups]]
 name = "😡 Nint"
 type = "select``[]DIRECT`[]🎯 Global`[]🇨🇳 China`(Nint)
