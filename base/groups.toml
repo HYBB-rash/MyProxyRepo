@@ -124,7 +124,7 @@ rule = ["[]🎮 GameProxy", "[]DIRECT", "[]🇺🇲 UnitedStates", "[]🇭🇰 H
 [[custom_groups]]
 name = "🎯 Global"
 type = "select" 
-rule = ["[]DIRECT", "[]🇨🇳 China-Auto", "[]🇨🇳 China", "[]🇭🇰 HongKong", "[]🇨🇳 Taiwan", "[]🚀 Manual"]
+rule = ["[]DIRECT", "[]🇨🇳 ChinaAuto", "[]🇨🇳 China", "[]🇭🇰 HongKong", "[]🇨🇳 Taiwan", "[]🚀 Manual"]
 
 [[custom_groups]]
 name = "🐟 Final"
