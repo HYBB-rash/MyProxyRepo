@@ -9,6 +9,7 @@ type = "url-test"
 rule = [".*"]
 url = "http://cp.cloudflare.com/generate_204"
 interval = 300
+tolerance = 150
 
 [[custom_groups]]
 name = "🔮 LoadBalance"
