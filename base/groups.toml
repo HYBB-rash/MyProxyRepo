@@ -165,7 +165,10 @@ interval = 60
 
 [[custom_groups]]
 name = "🇯🇵 Japan"
-type = , load-balance, (日本|JP|Japan), http://cp.cloudflare.com/generate_204, 60
+type = "load-balance"
+rule = [(日本|JP|Japan)]
+rule = http://cp.cloudflare.com/generate_204
+inteval = 60
 
 [[custom_groups]]
 name = "🇺🇲 UnitedStates"
