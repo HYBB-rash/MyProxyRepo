@@ -80,11 +80,12 @@ rule = [[]DIRECT, []🎯 Global, []🇨🇳 China]
 [[custom_groups]]
 name = "📺 Bilibili"
 type = "select"
-rule = []DIRECT, []🎯 Global, []🇨🇳 China, []🇨🇳 Taiwan, []🇭🇰 HongKong
+rule = [[]DIRECT, []🎯 Global, []🇨🇳 China, []🇨🇳 Taiwan, []🇭🇰 HongKong]
 
 [[custom_groups]]
 name = "📺 Iqiyi"
-type = "select, []DIRECT, []🎯 Global, []🇨🇳 China, []🇨🇳 Taiwan, []🇭🇰 HongKong
+type = "select"
+rule = [[]DIRECT, []🎯 Global, []🇨🇳 China, []🇨🇳 Taiwan, []🇭🇰 HongKong]
 [[custom_groups]]
 name = "🌍 ProxyMedia"
 type = "select, []♻️ Auto, []🔮 LoadBalance, []🌏 MainWorld, []🌏 ThirdWorld, []🚀 Proxy, []🚀 Manual
