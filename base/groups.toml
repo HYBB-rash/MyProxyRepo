@@ -91,16 +91,16 @@ type = "select`[]REJECT`[]🎯 Global
 name = "🇨🇳 China"
 type = "load-balance`(国内|校园)`http://cp.cloudflare.com/generate_204`300
 [[custom_groups]]
-name = "🇨🇳 China Auto"
+name = "🇨🇳 ChinaAuto"
 type = `url-test`(国内|校园)`http://cp.cloudflare.com/generate_204`300,,50
 [[custom_groups]]
-name = "🇭🇰 Hong Kong"
+name = "🇭🇰 HongKong"
 type = `load-balance`(港|HK|Hong Kong)`http://cp.cloudflare.com/generate_204`60
 [[custom_groups]]
 name = "🇯🇵 Japan"
 type = `load-balance`(日本|JP|Japan)`http://cp.cloudflare.com/generate_204`60
 [[custom_groups]]
-name = "🇺🇲 United States"
+name = "🇺🇲 UnitedStates"
 type = `load-balance`(美|US|United States)`http://cp.cloudflare.com/generate_204`60
 [[custom_groups]]
 name = "🇨🇳 Taiwan"
@@ -115,13 +115,13 @@ type = "load-balance`(韩|KR|Korea|KOR)`http://cp.cloudflare.com/generate_204`60
 name = "🇩🇪 Germany"
 type = "load-balance`(德|Germany|GER)`http://cp.cloudflare.com/generate_204`60
 [[custom_groups]]
-name = "🇬🇧 Great Britain"
+name = "🇬🇧 GreatBritain"
 type = `load-balance`(英|UK|United Kingdom|GBR|Great Britain)`http://cp.cloudflare.com/generate_204`60
 [[custom_groups]]
-name = "🎮 Game Proxy"
+name = "🎮 GameProxy"
 type = `load-balance`(游戏|game)`http://cp.cloudflare.com/generate_204`60
 [[custom_groups]]
-name = "🌏 Main World"
+name = "🌏 MainWorld"
 type = `load-balance`(港|HK|Hong Kong|日本|JP|Japan|美|US|United States|台|TW|Taiwan|新加坡|SG|Singapore|韩|KR|Korea|KOR|德|Germany|GER|英|UK|United Kingdom|GBR|Great Britain)`http://cp.cloudflare.com/generate_204`60
 [[custom_groups]]
 name = "🌏 Third World"
