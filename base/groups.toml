@@ -74,10 +74,13 @@ rule = [[]🇨🇳 Taiwan, []🚀 Proxy, []🚀 Manual]
 
 [[custom_groups]]
 name = "🌩️ XunLei"
-type = "select, []DIRECT, []🎯 Global, []🇨🇳 China
+type = "select"
+rule = [[]DIRECT, []🎯 Global, []🇨🇳 China]
+
 [[custom_groups]]
 name = "📺 Bilibili"
-type = "select, []DIRECT, []🎯 Global, []🇨🇳 China, []🇨🇳 Taiwan, []🇭🇰 HongKong
+type = "select"
+rule = []DIRECT, []🎯 Global, []🇨🇳 China, []🇨🇳 Taiwan, []🇭🇰 HongKong
 [[custom_groups]]
 name = "📺 Iqiyi"
 type = "select, []DIRECT, []🎯 Global, []🇨🇳 China, []🇨🇳 Taiwan, []🇭🇰 HongKong
