@@ -144,7 +144,7 @@ type = "select"
 rule = ["[]REJECT", "[]🎯 Global"]
 
 [[custom_groups]]
-name = "[]🇨🇳 China"
+name = "🇨🇳 China"
 type = "load-balance"
 rule = ["(国内|校园)"]
 url = "http://cp.cloudflare.com/generate_204"
@@ -160,7 +160,7 @@ interval = 300
 tolerance = 150
 
 [[custom_groups]]
-name = "[]🇭🇰 HongKong"
+name = "🇭🇰 HongKong"
 type = "load-balance"
 rule = ["(港|HK|Hong Kong)"]
 url = "http://cp.cloudflare.com/generate_204"
@@ -168,7 +168,7 @@ interval = 300
 strategy = "consistent-hashing"
 
 [[custom_groups]]
-name = "[]🇯🇵 Japan"
+name = "🇯🇵 Japan"
 type = "load-balance"
 rule = ["(日本|JP|Japan)"]
 url = "http://cp.cloudflare.com/generate_204"
@@ -176,7 +176,7 @@ interval = 300
 strategy = "consistent-hashing"
 
 [[custom_groups]]
-name = "[]🇺🇲 UnitedStates"
+name = "🇺🇲 UnitedStates"
 type = "load-balance"
 rule = ["(美|US|United States)"]
 url = "http://cp.cloudflare.com/generate_204"
