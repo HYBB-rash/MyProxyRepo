@@ -161,6 +161,7 @@ type = "url-test"
 rule = ["(国内|校园)"]
 url = "http://cp.cloudflare.com/generate_204"
 interval = 300
+tolerance = 150
 
 [[custom_groups]]
 name = "🇭🇰 HongKong"
