@@ -152,7 +152,9 @@ interval = 300
 [[custom_groups]]
 name = "🇨🇳 ChinaAuto"
 type = "url-test"
-rule = (国内|校园), http://cp.cloudflare.com/generate_204, 300,,50
+rule = [(国内|校园)]
+url = http://cp.cloudflare.com/generate_204
+interval = 300
 
 [[custom_groups]]
 name = "🇭🇰 HongKong"
