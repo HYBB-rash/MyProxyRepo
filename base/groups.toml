@@ -149,90 +149,90 @@ rule = ["[]REJECT", "[]🎯 Global"]
 [[custom_groups]]
 name = "🇨🇳 China"
 type = "load-balance"
-rule = [(国内|校园)]
+rule = ["(国内|校园)"]
 url = http://cp.cloudflare.com/generate_204
 interval = 300
 
 [[custom_groups]]
 name = "🇨🇳 ChinaAuto"
 type = "url-test"
-rule = [(国内|校园)]
+rule = ["(国内|校园)"]
 url = http://cp.cloudflare.com/generate_204
 interval = 300
 
 [[custom_groups]]
 name = "🇭🇰 HongKong"
 type = "load-balance"
-rule = [(港|HK|Hong Kong)]
+rule = ["(港|HK|Hong Kong)"]
 rule = http://cp.cloudflare.com/generate_204
 interval = 60
 
 [[custom_groups]]
 name = "🇯🇵 Japan"
 type = "load-balance"
-rule = [(日本|JP|Japan)]
+rule = ["(日本|JP|Japan)"]
 rule = http://cp.cloudflare.com/generate_204
 inteval = 60
 
 [[custom_groups]]
 name = "🇺🇲 UnitedStates"
 type = "load-balance"
-rule = [(美|US|United States)]
+rule = ["(美|US|United States)"]
 url = http://cp.cloudflare.com/generate_204
 interval = 60
 
 [[custom_groups]]
 name = "🇨🇳 Taiwan"
 type = "load-balance"
-rule = [(台|TW|Taiwan)]
+rule = ["(台|TW|Taiwan)"]
 url = http://cp.cloudflare.com/generate_204
 interval = 60
 
 [[custom_groups]]
 name = "🇸🇬 Singapore"
 type = "load-balance", 
-rule = [(新加坡|SG|Singapore)], 
+rule = ["(新加坡|SG|Singapore)"], 
 url = http://cp.cloudflare.com/generate_204
 interval = 60
 
 [[custom_groups]]
 name = "🇰🇷 Korea"
 type = "load-balance"
-rule = [(韩|KR|Korea|KOR)]
+rule = ["(韩|KR|Korea|KOR)"]
 url = http://cp.cloudflare.com/generate_204
 interval = 60
 
 [[custom_groups]]
 name = "🇩🇪 Germany"
 type = "load-balance"
-rule = [(德|Germany|GER)]
+rule = ["(德|Germany|GER)"]
 url = http://cp.cloudflare.com/generate_204
 interval = 60
 
 [[custom_groups]]
 name = "🇬🇧 GreatBritain"
 type = "load-balance"
-rule = [(英|UK|United Kingdom|GBR|Great Britain)]
+rule = ["(英|UK|United Kingdom|GBR|Great Britain)"]
 url = http://cp.cloudflare.com/generate_204
 interval = 60
 
 [[custom_groups]]
 name = "🎮 GameProxy"
 type = "load-balance"
-rule = [(游戏|game)]
+rule = ["(游戏|game)"]
 url = http://cp.cloudflare.com/generate_204
 interval = 60
 
 [[custom_groups]]
 name = "🌏 MainWorld"
 type = "load-balance"
-rule = [(港|HK|Hong Kong|日本|JP|Japan|美|US|United States|台|TW|Taiwan|新加坡|SG|Singapore|韩|KR|Korea|KOR|德|Germany|GER|英|UK|United Kingdom|GBR|Great Britain)]
+rule = ["(港|HK|Hong Kong|日本|JP|Japan|美|US|United States|台|TW|Taiwan|新加坡|SG|Singapore|韩|KR|Korea|KOR|德|Germany|GER|英|UK|United Kingdom|GBR|Great Britain)"]
 url = http://cp.cloudflare.com/generate_204
 interval = 60
 
 [[custom_groups]]
 name = "🌏 ThirdWorld"
 type = "load-balance"
-rule = [(^(?!.*游戏)(?!.*国内)(?!.*校园)(?!.*港)(?!.*HK)(?!.*Hong Kong)(?!.*日本)(?!.*JP)(?!.*Japan)(?!.*美)(?!.*US)(?!.*United States)(?!.*台)(?!.*TW)(?!.*Taiwan)(?!.*新加坡)(?!.*SG)(?!.*Singapore)(?!.*韩)(?!.*KR)(?!.*Korea)(?!.*KOR)(?!.*德)(?!.*Germany)(?!.*GER)(?!.*英)(?!.*UK)(?!.*United Kingdom)(?!.*GBR)(?!.*Great Britain).*$)]
+rule = ["(^(?!.*游戏)(?!.*国内)(?!.*校园)(?!.*港)(?!.*HK)(?!.*Hong Kong)(?!.*日本)(?!.*JP)(?!.*Japan)(?!.*美)(?!.*US)(?!.*United States)(?!.*台)(?!.*TW)(?!.*Taiwan)(?!.*新加坡)(?!.*SG)(?!.*Singapore)(?!.*韩)(?!.*KR)(?!.*Korea)(?!.*KOR)(?!.*德)(?!.*Germany)(?!.*GER)(?!.*英)(?!.*UK)(?!.*United Kingdom)(?!.*GBR)(?!.*Great Britain).*$)"]
 url = http://cp.cloudflare.com/generate_204
 interval = 60
