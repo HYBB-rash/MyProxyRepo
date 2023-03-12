@@ -114,16 +114,23 @@ rule = [[]DIRECT, []🎯 Global, []🇨🇳 China, []🇺🇲 UnitedStates, []�
 
 [[custom_groups]]
 name = "🎮 Game"
-type = "select, []🎮 GameProxy, []DIRECT, []🇺🇲 UnitedStates, []🇭🇰 HongKong, []🇨🇳 Taiwan, []🇸🇬 Singapore, []🇯🇵 Japan, []🇰🇷 Korea, []🇬🇧 GreatBritain, []🇩🇪 Germany, []🌏 ThirdWorld, []🚀 Proxy, []🚀 Manual
+type = "select"
+rule = [[]🎮 GameProxy, []DIRECT, []🇺🇲 UnitedStates, []🇭🇰 HongKong, []🇨🇳 Taiwan, []🇸🇬 Singapore, []🇯🇵 Japan, []🇰🇷 Korea, []🇬🇧 GreatBritain, []🇩🇪 Germany, []🌏 ThirdWorld, []🚀 Proxy, []🚀 Manual]
+
 [[custom_groups]]
 name = "🎯 Global"
-type = "select, []DIRECT, []🇨🇳 China-Auto, []🇨🇳 China, []🇭🇰 HongKong, []🇨🇳 Taiwan, []🚀 Manual
+type = "select" 
+rule = [[]DIRECT, []🇨🇳 China-Auto, []🇨🇳 China, []🇭🇰 HongKong, []🇨🇳 Taiwan, []🚀 Manual]
+
 [[custom_groups]]
 name = "🐟 Final"
-type = "select, []♻️ Auto, []🔮 LoadBalance, []🎯 Global, []🌏 MainWorld, []🌏 ThirdWorld, []🚀 Proxy, []🚀 Manual
+type = "select"
+rule = [[]♻️ Auto, []🔮 LoadBalance, []🎯 Global, []🌏 MainWorld, []🌏 ThirdWorld, []🚀 Proxy, []🚀 Manual]
+
 [[custom_groups]]
 name = "🆎 AdBlock"
-type = "select, []REJECT, []🎯 Global
+type = "select"
+rule = [[]REJECT, []🎯 Global]
 [[custom_groups]]
 name = "🛑 BanAD"
 type = "select, []REJECT, []🎯 Global
