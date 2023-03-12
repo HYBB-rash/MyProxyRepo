@@ -1,0 +1,4 @@
+[[custom_groups]]
+name = "Proxy"
+type = "select"
+rule = [".*", "[]AUTO", "[]DIRECT", ".*"]
