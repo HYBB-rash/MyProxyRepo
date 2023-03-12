@@ -59,10 +59,14 @@ rule = [[]🇺🇲 UnitedStates, []🌏 MainWorld, []🌏 ThirdWorld, []🚀 Pro
 
 [[custom_groups]]
 name = "📹 Youtube"
-type = "select, []♻️ Auto, []🔮 LoadBalance, []🌏 MainWorld, []🌏 ThirdWorld, []🚀 Proxy, []🚀 Manual
+type = "select"
+rule = [[]♻️ Auto, []🔮 LoadBalance, []🌏 MainWorld, []🌏 ThirdWorld, []🚀 Proxy, []🚀 Manual]
+
 [[custom_groups]]
 name = "🎥 Netflix"
-type = "select, []🇸🇬 Singapore, []🇭🇰 HongKong, []🇨🇳 Taiwan, []🇯🇵 Japan, []🇺🇲 UnitedStates, []🇰🇷 Korea, []🇬🇧 GreatBritain, []🇩🇪 Germany, []🚀 Proxy, []🚀 Manual
+type = "select"
+rule = [[]🇸🇬 Singapore, []🇭🇰 HongKong, []🇨🇳 Taiwan, []🇯🇵 Japan, []🇺🇲 UnitedStates, []🇰🇷 Korea, []🇬🇧 GreatBritain, []🇩🇪 Germany, []🚀 Proxy, []🚀 Manual]
+
 [[custom_groups]]
 name = "📺 Bahamut"
 type = "select, []🇨🇳 Taiwan, []🚀 Proxy, []🚀 Manual
