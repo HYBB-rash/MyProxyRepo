@@ -1,0 +1,5 @@
+# 内容：我司代理
+# 数量：1
+IP-CIDR,10.110.0.0/16
+IP-CIDR,10.21.0.0/16
+DOMAIN-SUFFIX,vpn.sh.nint.com
