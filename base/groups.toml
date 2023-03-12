@@ -184,7 +184,7 @@ interval = 60
 strategy = "consistent-hashing"
 
 [[custom_groups]]
-name = "[]🇨🇳 Taiwan"
+name = "🇨🇳 Taiwan"
 type = "load-balance"
 rule = ["(台|TW|Taiwan)"]
 url = "http://cp.cloudflare.com/generate_204"
@@ -200,7 +200,7 @@ interval = 300
 strategy = "consistent-hashing"
 
 [[custom_groups]]
-name = "[]🇰🇷 Korea"
+name = "🇰🇷 Korea"
 type = "load-balance"
 rule = ["(韩|KR|Korea|KOR)"]
 url = "http://cp.cloudflare.com/generate_204"
@@ -208,7 +208,7 @@ interval = 300
 strategy = "consistent-hashing"
 
 [[custom_groups]]
-name = "[]🇩🇪 Germany"
+name = "🇩🇪 Germany"
 type = "load-balance"
 rule = ["(德|Germany|GER)"]
 url = "http://cp.cloudflare.com/generate_204"
@@ -216,7 +216,7 @@ interval = 300
 strategy = "consistent-hashing"
 
 [[custom_groups]]
-name = "[]🇬🇧 GreatBritain"
+name = "🇬🇧 GreatBritain"
 type = "load-balance"
 rule = ["(英|UK|United Kingdom|GBR|Great Britain)"]
 url = "http://cp.cloudflare.com/generate_204"
