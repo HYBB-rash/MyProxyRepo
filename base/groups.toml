@@ -134,11 +134,13 @@ rule = [[]REJECT, []🎯 Global]
 
 [[custom_groups]]
 name = "🛑 BanAD"
-type = "select, []REJECT, []🎯 Global
+type = "select"
+rule = [[]REJECT, []🎯 Global]
 
 [[custom_groups]]
 name = "🍃 BanProgramAD"
-type = "select, []REJECT, []🎯 Global
+type = "select"
+rule = [[]REJECT, []🎯 Global]
 
 [[custom_groups]]
 name = "🇨🇳 China"
