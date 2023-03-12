@@ -124,5 +124,5 @@ type = `load-balance`(游戏|game)`http://cp.cloudflare.com/generate_204`60
 name = "🌏 MainWorld"
 type = `load-balance`(港|HK|Hong Kong|日本|JP|Japan|美|US|United States|台|TW|Taiwan|新加坡|SG|Singapore|韩|KR|Korea|KOR|德|Germany|GER|英|UK|United Kingdom|GBR|Great Britain)`http://cp.cloudflare.com/generate_204`60
 [[custom_groups]]
-name = "🌏 Third World"
+name = "🌏 ThirdWorld"
 type = `load-balance`(^(?!.*游戏)(?!.*国内)(?!.*校园)(?!.*港)(?!.*HK)(?!.*Hong Kong)(?!.*日本)(?!.*JP)(?!.*Japan)(?!.*美)(?!.*US)(?!.*United States)(?!.*台)(?!.*TW)(?!.*Taiwan)(?!.*新加坡)(?!.*SG)(?!.*Singapore)(?!.*韩)(?!.*KR)(?!.*Korea)(?!.*KOR)(?!.*德)(?!.*Germany)(?!.*GER)(?!.*英)(?!.*UK)(?!.*United Kingdom)(?!.*GBR)(?!.*Great Britain).*$)`http://cp.cloudflare.com/generate_204`60
