@@ -39,7 +39,9 @@ rule = ["[]♻️ Auto", "[]🔮 LoadBalance", "[]🇸🇬 Singapore", "[]🇭�
 
 [[custom_groups]]
 name = "🇿 ZhiHu"
-type = "select, []DIRECT, []🎯 Global, []♻️ Auto, []🔮 LoadBalance, []🌏 MainWorld, []🌏 ThirdWorld, []🚀 Proxy, []🚀 Manual
+type = "select" 
+rule = ["[]DIRECT", "[]🎯 Global", "[]♻️ Auto", "[]🔮 LoadBalance", "[]🌏 MainWorld", "[]🌏 ThirdWorld", "[]🚀 Proxy", "[]🚀 Manual"]
+
 [[custom_groups]]
 name = "🐦 Twitter"
 type = "select, []♻️ Auto, []🔮 LoadBalance, []🌏 MainWorld, []🌏 ThirdWorld, []🚀 Proxy, []🚀 Manual
