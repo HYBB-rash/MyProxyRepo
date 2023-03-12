@@ -200,7 +200,10 @@ interval = 60
 
 [[custom_groups]]
 name = "🇩🇪 Germany"
-type = "load-balance, (德|Germany|GER), http://cp.cloudflare.com/generate_204, 60
+type = "load-balance"
+rule = [(德|Germany|GER)]
+rule = http://cp.cloudflare.com/generate_204
+interval = 60
 
 [[custom_groups]]
 name = "🇬🇧 GreatBritain"
