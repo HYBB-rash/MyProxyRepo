@@ -158,7 +158,10 @@ interval = 300
 
 [[custom_groups]]
 name = "🇭🇰 HongKong"
-type = , load-balance, (港|HK|Hong Kong), http://cp.cloudflare.com/generate_204, 60
+type = "load-balance"
+rule = [(港|HK|Hong Kong)]
+rule = http://cp.cloudflare.com/generate_204
+interval = 60
 
 [[custom_groups]]
 name = "🇯🇵 Japan"
