@@ -50,11 +50,13 @@ rule = ["[]♻️ Auto", "[]🔮 LoadBalance", "[]🌏 MainWorld", "[]🌏 Third
 [[custom_groups]]
 name = "🇻 Wechat"
 type = "select" 
-rule = [[]DIRECT, []🎯 Global, []♻️ Auto, []🇨🇳 China, []🌏 MainWorld, []🌏 ThirdWorld, []🚀 Proxy, []🚀 Manual]
+rule = ["[]DIRECT", "[]🎯 Global", "[]♻️ Auto", "[]🇨🇳 China", "[]🌏 MainWorld", "[]🌏 ThirdWorld", "[]🚀 Proxy", "[]🚀 Manual"]
 
 [[custom_groups]]
 name = "📢 Google"
-type = "select, []🇺🇲 UnitedStates, []🌏 MainWorld, []🌏 ThirdWorld, []🚀 Proxy, []🚀 Manual
+type = "select"
+rule = [[]🇺🇲 UnitedStates, []🌏 MainWorld, []🌏 ThirdWorld, []🚀 Proxy, []🚀 Manual]
+
 [[custom_groups]]
 name = "📹 Youtube"
 type = "select, []♻️ Auto, []🔮 LoadBalance, []🌏 MainWorld, []🌏 ThirdWorld, []🚀 Proxy, []🚀 Manual
