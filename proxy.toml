@@ -7,4 +7,5 @@ version = 1
 import = "https://raw.githubusercontent.com/HYBB-rash/MyProxyRepo/main/base/rulesets.toml"
 
 [[custom_groups]]
-import = ""
+import = "https://github.com/HYBB-rash/MyProxyRepo/blob/main/base/groups.toml"
+
