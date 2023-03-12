@@ -15,12 +15,12 @@ interval = 300
 strategy = "consistent-hashing"
 
 [[custom_groups]]
-name = "[]🚀 Proxy"
+name = "🚀 Proxy"
 type = "select"
 rule = ["[]♻️ Auto", "[]🔮 LoadBalance", "[]🌏 MainWorld", "[]🌏 ThirdWorld", "[]🇭🇰 HongKong", "[]🇨🇳 Taiwan", "🇸🇬 Singapore", "[]🇯🇵 Japan", "[]🇺🇲 UnitedStates", "[]🇰🇷 Korea", "[]🇩🇪 Germany", "[]🇬🇧 GreatBritain", "[]DIRECT"]
 
 [[custom_groups]]
-name = "[]🚀 Manual"
+name = "🚀 Manual"
 type = "select"
 rule = [".*"]
 
