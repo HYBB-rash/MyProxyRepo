@@ -186,7 +186,10 @@ interval = 60
 
 [[custom_groups]]
 name = "🇸🇬 Singapore"
-type = "load-balance, (新加坡|SG|Singapore), http://cp.cloudflare.com/generate_204, 60
+type = "load-balance", 
+rule = [(新加坡|SG|Singapore)], 
+url = http://cp.cloudflare.com/generate_204
+interval = 60
 
 [[custom_groups]]
 name = "🇰🇷 Korea"
