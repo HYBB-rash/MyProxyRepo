@@ -109,7 +109,9 @@ rule = [[]DIRECT, []🎯 Global, []🇨🇳 China, []🇺🇲 UnitedStates, []�
 
 [[custom_groups]]
 name = "🍎 Apple"
-type = "select, []DIRECT, []🎯 Global, []🇨🇳 China, []🇺🇲 UnitedStates, []🇭🇰 HongKong, []🇨🇳 Taiwan, []🇸🇬 Singapore, []🇯🇵 Japan, []🇰🇷 Korea, []🇬🇧 GreatBritain, []🇩🇪 Germany, []🌏 ThirdWorld, []🚀 Proxy, []🚀 Manual
+type = "select"
+rule = [[]DIRECT, []🎯 Global, []🇨🇳 China, []🇺🇲 UnitedStates, []🇭🇰 HongKong, []🇨🇳 Taiwan, []🇸🇬 Singapore, []🇯🇵 Japan, []🇰🇷 Korea, []🇬🇧 GreatBritain, []🇩🇪 Germany, []🌏 ThirdWorld, []🚀 Proxy, []🚀 Manual]
+
 [[custom_groups]]
 name = "🎮 Game"
 type = "select, []🎮 GameProxy, []DIRECT, []🇺🇲 UnitedStates, []🇭🇰 HongKong, []🇨🇳 Taiwan, []🇸🇬 Singapore, []🇯🇵 Japan, []🇰🇷 Korea, []🇬🇧 GreatBritain, []🇩🇪 Germany, []🌏 ThirdWorld, []🚀 Proxy, []🚀 Manual
