@@ -16,7 +16,7 @@ name = "🔮 LoadBalance"
 type = "load-balance"
 rule = ["(^(?!.*国内)(?!.*校园).*$)"]
 url = "http://cp.cloudflare.com/generate_204"
-interval = 60
+interval = 300
 strategy = "consistent-hashing"
 
 [[custom_groups]]
@@ -169,7 +169,7 @@ name = "🇭🇰 HongKong"
 type = "load-balance"
 rule = ["(港|HK|Hong Kong)"]
 url = "http://cp.cloudflare.com/generate_204"
-interval = 60
+interval = 300
 strategy = "consistent-hashing"
 
 [[custom_groups]]
@@ -177,7 +177,7 @@ name = "🇯🇵 Japan"
 type = "load-balance"
 rule = ["(日本|JP|Japan)"]
 url = "http://cp.cloudflare.com/generate_204"
-inteval = 60
+inteval = 300
 strategy = "consistent-hashing"
 
 [[custom_groups]]
@@ -193,7 +193,7 @@ name = "🇨🇳 Taiwan"
 type = "load-balance"
 rule = ["(台|TW|Taiwan)"]
 url = "http://cp.cloudflare.com/generate_204"
-interval = 60
+interval = 300
 strategy = "consistent-hashing"
 
 [[custom_groups]]
@@ -201,7 +201,7 @@ name = "🇸🇬 Singapore"
 type = "load-balance"
 rule = ["(新加坡|SG|Singapore)"]
 url = "http://cp.cloudflare.com/generate_204"
-interval = 60
+interval = 300
 strategy = "consistent-hashing"
 
 [[custom_groups]]
@@ -209,7 +209,7 @@ name = "🇰🇷 Korea"
 type = "load-balance"
 rule = ["(韩|KR|Korea|KOR)"]
 url = "http://cp.cloudflare.com/generate_204"
-interval = 60
+interval = 300
 strategy = "consistent-hashing"
 
 [[custom_groups]]
@@ -217,7 +217,7 @@ name = "🇩🇪 Germany"
 type = "load-balance"
 rule = ["(德|Germany|GER)"]
 url = "http://cp.cloudflare.com/generate_204"
-interval = 60
+interval = 300
 strategy = "consistent-hashing"
 
 [[custom_groups]]
@@ -225,7 +225,7 @@ name = "🇬🇧 GreatBritain"
 type = "load-balance"
 rule = ["(英|UK|United Kingdom|GBR|Great Britain)"]
 url = "http://cp.cloudflare.com/generate_204"
-interval = 60
+interval = 300
 strategy = "consistent-hashing"
 
 [[custom_groups]]
@@ -233,7 +233,7 @@ name = "🎮 GameProxy"
 type = "load-balance"
 rule = ["(游戏|game)"]
 url = "http://cp.cloudflare.com/generate_204"
-interval = 60
+interval = 300
 strategy = "consistent-hashing"
 
 [[custom_groups]]
@@ -241,7 +241,7 @@ name = "🌏 MainWorld"
 type = "load-balance"
 rule = ["(港|HK|Hong Kong|日本|JP|Japan|美|US|United States|台|TW|Taiwan|新加坡|SG|Singapore|韩|KR|Korea|KOR|德|Germany|GER|英|UK|United Kingdom|GBR|Great Britain)"]
 url = "http://cp.cloudflare.com/generate_204"
-interval = 60
+interval = 300
 strategy = "consistent-hashing"
 
 [[custom_groups]]
@@ -249,5 +249,5 @@ name = "🌏 ThirdWorld"
 type = "load-balance"
 rule = ["(^(?!.*游戏)(?!.*国内)(?!.*校园)(?!.*港)(?!.*HK)(?!.*Hong Kong)(?!.*日本)(?!.*JP)(?!.*Japan)(?!.*美)(?!.*US)(?!.*United States)(?!.*台)(?!.*TW)(?!.*Taiwan)(?!.*新加坡)(?!.*SG)(?!.*Singapore)(?!.*韩)(?!.*KR)(?!.*Korea)(?!.*KOR)(?!.*德)(?!.*Germany)(?!.*GER)(?!.*英)(?!.*UK)(?!.*United Kingdom)(?!.*GBR)(?!.*Great Britain).*$)"]
 url = "http://cp.cloudflare.com/generate_204"
-interval = 60
+interval = 300
 strategy = "consistent-hashing"
