@@ -12,7 +12,11 @@ interval = 300
 
 [[custom_groups]]
 name = "🔮 LoadBalance"
-type = "`load-balance`(^(?!.*国内)(?!.*校园).*$)`http://cp.cloudflare.com/generate_204`60
+type = "load-balance"
+rule = ["(^(?!.*国内)(?!.*校园).*$)"]
+url = "http://cp.cloudflare.com/generate_204"
+interval = 60
+
 [[custom_groups]]
 name = "🚀 Proxy"
 type = "select`[]♻️ Auto`[]🔮 Load-Balance`[]🌏 Main World`[]🌏 Third World`[]🇭🇰 Hong Kong`[]🇨🇳 Taiwan`[]🇸🇬 Singapore`[]🇯🇵 Japan`[]🇺🇲 United States`[]🇰🇷 Korea`[]🇩🇪 Germany`[]🇬🇧 Great Britain`[]DIRECT
