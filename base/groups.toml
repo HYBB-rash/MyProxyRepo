@@ -164,7 +164,7 @@ interval = 300
 name = "🇭🇰 HongKong"
 type = "load-balance"
 rule = ["(港|HK|Hong Kong)"]
-rule = "http://cp.cloudflare.com/generate_204"
+url = "http://cp.cloudflare.com/generate_204"
 interval = 60
 
 [[custom_groups]]
