@@ -145,7 +145,7 @@ rule = [[]REJECT, []🎯 Global]
 [[custom_groups]]
 name = "🇨🇳 China"
 type = "load-balance"
-rule = (国内|校园), http://cp.cloudflare.com/generate_204
+rule = [(国内|校园), http://cp.cloudflare.com/generate_204]
 interval = 300
 
 [[custom_groups]]
