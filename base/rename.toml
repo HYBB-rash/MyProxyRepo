@@ -1,0 +1,15 @@
+[[rename_node]]
+match="!!GROUPID=0!!(^.*)"
+replace="TAG - $1"
+
+[[rename_node]]
+match="!!GROUPID=1!!(^.*)"
+replace="库洛米 - $1"
+
+[[rename_node]]
+match="!!GROUPID=2!!(^.*)"
+replace="Orange - $1"
+
+[[rename_node]]
+match="!!GROUPID=3!!(^.*)"
+replace="奶昔 - $1"
