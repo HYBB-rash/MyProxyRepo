@@ -18,4 +18,4 @@ import = "https://raw.githubusercontent.com/HYBB-rash/MyProxyRepo/main/base/rena
 import = "https://raw.githubusercontent.com/HYBB-rash/MyProxyRepo/main/base/rulesets.toml"
 
 [[custom_groups]]
-import = "https://github.com/HYBB-rash/MyProxyRepo/blob/main/base/groups.toml"
+import = "https://raw.githubusercontent.com/HYBB-rash/MyProxyRepo/main/base/groups.toml"
