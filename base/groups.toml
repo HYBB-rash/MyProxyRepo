@@ -193,7 +193,10 @@ interval = 60
 
 [[custom_groups]]
 name = "🇰🇷 Korea"
-type = "load-balance, (韩|KR|Korea|KOR), http://cp.cloudflare.com/generate_204, 60
+type = "load-balance"
+rule = [(韩|KR|Korea|KOR)]
+url = http://cp.cloudflare.com/generate_204
+interval = 60
 
 [[custom_groups]]
 name = "🇩🇪 Germany"
