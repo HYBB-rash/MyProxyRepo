@@ -4,4 +4,4 @@ version = 1
 
 
 [[rulesets]]
-import = ""
+import = "https://raw.githubusercontent.com/HYBB-rash/MyProxyRepo/main/base/rulesets.toml"
