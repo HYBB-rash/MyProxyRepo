@@ -172,7 +172,10 @@ inteval = 60
 
 [[custom_groups]]
 name = "🇺🇲 UnitedStates"
-type = , load-balance, (美|US|United States), http://cp.cloudflare.com/generate_204, 60
+type = "load-balance"
+rule = [(美|US|United States)]
+url = http://cp.cloudflare.com/generate_204
+interval = 60
 
 [[custom_groups]]
 name = "🇨🇳 Taiwan"
