@@ -1,5 +1,5 @@
 [[custom_groups]]
-name = "[]♻️ Auto"
+name = "♻️ Auto"
 type = "url-test"
 rule = [".*"]
 url = "http://cp.cloudflare.com/generate_204"
