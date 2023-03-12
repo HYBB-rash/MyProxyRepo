@@ -1,176 +1,171 @@
 [[rulesets]]
-group = "🎯 全球直连"
-ruleset = "rules/LocalAreaNetwork.list"
-
-[[rulesets]]
 group = "😡 Nint"
-ruleset = ""
+test = "https://raw.githubusercontent.com/HYBB-rash/MyProxyRepo/main/nint.list"
 
 [[rulesets]]
 group = "🌩️ XunLei"
-ruleset = ""
+test = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Xunlei/Xunlei.list"
 
 [[rulesets]]
 group = "🎯 Global"
-ruleset = ""
+test = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list"
 
 [[rulesets]]
 group = "🎯 Global"
-ruleset = ""
+test = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list"
 
 [[rulesets]]
 group = "🛑 BanAD"
-ruleset = ""
+test = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list"
 
 [[rulesets]]
 group = "🍃 BanProgramAD"
-ruleset = ""
+test = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list"
 
 [[rulesets]]
 group = "🆎 AdBlock"
-ruleset = ""
+test = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list"
 
 [[rulesets]]
 group = "🆎 AdBlock"
-ruleset = ""
+test = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list"
 
 [[rulesets]]
 group = "📢 Google"
-ruleset = ""
+test = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list"
 
 [[rulesets]]
 group = "📢 Google"
-ruleset = ""
+test = "[]DOMAIN-SUFFIX,xn--ngstr-lra8j.com"
 
 [[rulesets]]
 group = "📢 Google"
-ruleset = ""
+test = "[]DOMAIN-SUFFIX,services.googleapis.cn"
 
 [[rulesets]]
 group = "📢 Google"
-ruleset = ""
+test = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCNProxyIP.list"
 
 [[rulesets]]
 group = "📢 Google"
-ruleset = ""
+test = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCN.list"
 
 [[rulesets]]
 group = "📢 Google"
-ruleset = ""
+test = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Google.list"
 
 [[rulesets]]
 group = "📹 Youtube"
-ruleset = ""
+test = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list"
 
 [[rulesets]]
 group = "Ⓜ️ OneDrive"
-ruleset = ""
+test = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list"
 
 [[rulesets]]
 group = "Ⓜ️ Microsoft"
-ruleset = ""
+test = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list"
 
 [[rulesets]]
 group = "🍎 Apple"
-ruleset = ""
+test = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list"
 
 [[rulesets]]
 group = "📲 Telegram"
-ruleset = ""
+test = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list"
 
 [[rulesets]]
 group = "🎮 Game"
-ruleset = ""
+test = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list"
 
 [[rulesets]]
 group = "🎮 Game"
-ruleset = ""
+test = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list"
 
 [[rulesets]]
 group = "🎮 Game"
-ruleset = ""
+test = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Nintendo.list"
 
 [[rulesets]]
 group = "🎮 Game"
-ruleset = ""
+test = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list"
 
 [[rulesets]]
 group = "🎥 Netflix"
-ruleset = ""
+test = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list"
 
 [[rulesets]]
 group = "🎥 Netflix"
-ruleset = ""
+test = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AmazonIp.list"
 
 [[rulesets]]
 group = "🎥 Netflix"
-ruleset = ""
+test = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/DisneyPlus.list"
 
 [[rulesets]]
 group = "📺 Bahamut"
-ruleset = ""
+test = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list"
 
 [[rulesets]]
 group = "📺 Iqiyi"
-ruleset = ""
+test = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/IqiyiHMT.list"
 
 [[rulesets]]
 group = "📺 Iqiyi"
-ruleset = ""
+test = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Iqiyi.list"
 
 [[rulesets]]
 group = "📺 Bilibili"
-ruleset = ""
+test = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list"
 
 [[rulesets]]
 group = "📺 Bilibili"
-ruleset = ""
+test = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"
 
 [[rulesets]]
 group = "🌏 ChinaMedia"
-ruleset = ""
+test = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list"
 
 [[rulesets]]
 group = "🌍 ProxyMedia"
-ruleset = ""
+test = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list"
 
 [[rulesets]]
 group = "🇿 ZhiHu"
-ruleset = ""
+test = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zhihu/Zhihu.list"
 
 [[rulesets]]
 group = "🐦 Twitter"
-ruleset = ""
+test = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Twitter/Twitter.list"
 
 [[rulesets]]
 group = "🇻 Wechat"
-ruleset = ""
+test = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wechat.list"
 
 [[rulesets]]
 group = "🪙 Binance"
-ruleset = ""
+test = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Binance.list"
 
 [[rulesets]]
 group = "🚀 Proxy"
-ruleset = ""
+test = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list"
 
 [[rulesets]]
 group = "🎯 Global"
-ruleset = ""
+test = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list"
 
 [[rulesets]]
 group = "🎯 Global"
-ruleset = ""
+test = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list"
 
 [[rulesets]]
 group = "🎯 Global"
-ruleset = ""
+test = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list"
 
 [[rulesets]]
 group = "🎯 Global"
-ruleset = ""
+test = "[]GEOIP,CN"
 
 [[rulesets]]
 group = "🐟 Final"
-ruleset = ""
-
+test = "[]FINAL"
