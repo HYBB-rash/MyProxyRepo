@@ -14,9 +14,10 @@ rename="!!GROUPID=2!!(^.*)@Orange - $1"
 rename="!!GROUPID=3!!(^.*)@奶昔 - $1"
 
 
-[[rename]]
+[[rename_node]]
 match="!!GROUPID=0!!"
 replace="TAG - $1"
+
 
 
 managed_config_prefix = "http://home.man-her.tech:55500"
