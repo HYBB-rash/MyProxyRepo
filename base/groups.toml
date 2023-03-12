@@ -20,7 +20,7 @@ interval = 60
 [[custom_groups]]
 name = "🚀 Proxy"
 type = "select"
-rule = ["[]♻️ Auto", "[]🔮 Load-Balance", "[]🌏 Main World", "[]🌏 Third World", "[]🇭🇰 Hong Kong", "[]🇨🇳 Taiwan", "[]🇸🇬 Singapore", "[]🇯🇵 Japan", "[]🇺🇲 United States", "[]🇰🇷 Korea", "[]🇩🇪 Germany", "[]🇬🇧 Great Britain", "[]DIRECT"]
+rule = ["[]♻️ Auto", "[]🔮 Load-Balance", "[]🌏 MainWorld", "[]🌏 ThirdWorld", "[]🇭🇰 HongKong", "[]🇨🇳 Taiwan", "[]🇸🇬 Singapore", "[]🇯🇵 Japan", "[]🇺🇲 United States", "[]🇰🇷 Korea", "[]🇩🇪 Germany", "[]🇬🇧 Great Britain", "[]DIRECT"]
 [[custom_groups]]
 name = "🚀 Manual"
 type = "select`.*
@@ -29,25 +29,25 @@ name = "😡 Nint"
 type = "select``[]DIRECT`[]🎯 Global`[]🇨🇳 China`(Nint)
 [[custom_groups]]
 name = "📲 Telegram"
-type = "select`[]♻️ Auto`[]🔮 Load-Balance`[]🇸🇬 Singapore`[]🇭🇰 Hong Kong`[]🇨🇳 Taiwan`[]🇯🇵 Japan`[]🇺🇲 United States`[]🇰🇷 Korea`[]🇬🇧 Great Britain`[]🇩🇪 Germany`[]🌏 Third World`[]🚀 Proxy`[]🚀 Manual
+type = "select`[]♻️ Auto`[]🔮 Load-Balance`[]🇸🇬 Singapore`[]🇭🇰 HongKong`[]🇨🇳 Taiwan`[]🇯🇵 Japan`[]🇺🇲 United States`[]🇰🇷 Korea`[]🇬🇧 Great Britain`[]🇩🇪 Germany`[]🌏 ThirdWorld`[]🚀 Proxy`[]🚀 Manual
 [[custom_groups]]
 name = "🇿 ZhiHu"
-type = "select`[]DIRECT`[]🎯 Global`[]♻️ Auto`[]🔮 Load-Balance`[]🌏 Main World`[]🌏 Third World`[]🚀 Proxy`[]🚀 Manual
+type = "select`[]DIRECT`[]🎯 Global`[]♻️ Auto`[]🔮 Load-Balance`[]🌏 MainWorld`[]🌏 ThirdWorld`[]🚀 Proxy`[]🚀 Manual
 [[custom_groups]]
 name = "🐦 Twitter"
-type = "select`[]♻️ Auto`[]🔮 Load-Balance`[]🌏 Main World`[]🌏 Third World`[]🚀 Proxy`[]🚀 Manual
+type = "select`[]♻️ Auto`[]🔮 Load-Balance`[]🌏 MainWorld`[]🌏 ThirdWorld`[]🚀 Proxy`[]🚀 Manual
 [[custom_groups]]
 name = "🇻 Wechat"
-type = "select`[]DIRECT`[]🎯 Global`[]♻️ Auto`[]🇨🇳 China`[]🌏 Main World`[]🌏 Third World`[]🚀 Proxy`[]🚀 Manual
+type = "select`[]DIRECT`[]🎯 Global`[]♻️ Auto`[]🇨🇳 China`[]🌏 MainWorld`[]🌏 ThirdWorld`[]🚀 Proxy`[]🚀 Manual
 [[custom_groups]]
 name = "📢 Google"
-type = "select`[]🇺🇲 United States`[]🌏 Main World`[]🌏 Third World`[]🚀 Proxy`[]🚀 Manual
+type = "select`[]🇺🇲 United States`[]🌏 MainWorld`[]🌏 ThirdWorld`[]🚀 Proxy`[]🚀 Manual
 [[custom_groups]]
 name = "📹 Youtube"
-type = "select`[]♻️ Auto`[]🔮 Load-Balance`[]🌏 Main World`[]🌏 Third World`[]🚀 Proxy`[]🚀 Manual
+type = "select`[]♻️ Auto`[]🔮 Load-Balance`[]🌏 MainWorld`[]🌏 ThirdWorld`[]🚀 Proxy`[]🚀 Manual
 [[custom_groups]]
 name = "🎥 Netflix"
-type = "select`[]🇸🇬 Singapore`[]🇭🇰 Hong Kong`[]🇨🇳 Taiwan`[]🇯🇵 Japan`[]🇺🇲 United States`[]🇰🇷 Korea`[]🇬🇧 Great Britain`[]🇩🇪 Germany`[]🚀 Proxy`[]🚀 Manual
+type = "select`[]🇸🇬 Singapore`[]🇭🇰 HongKong`[]🇨🇳 Taiwan`[]🇯🇵 Japan`[]🇺🇲 United States`[]🇰🇷 Korea`[]🇬🇧 Great Britain`[]🇩🇪 Germany`[]🚀 Proxy`[]🚀 Manual
 [[custom_groups]]
 name = "📺 Bahamut"
 type = "select`[]🇨🇳 Taiwan`[]🚀 Proxy`[]🚀 Manual
@@ -56,37 +56,37 @@ name = "🌩️ XunLei"
 type = "select`[]DIRECT`[]🎯 Global`[]🇨🇳 China
 [[custom_groups]]
 name = "📺 Bilibili"
-type = "select`[]DIRECT`[]🎯 Global`[]🇨🇳 China`[]🇨🇳 Taiwan`[]🇭🇰 Hong Kong
+type = "select`[]DIRECT`[]🎯 Global`[]🇨🇳 China`[]🇨🇳 Taiwan`[]🇭🇰 HongKong
 [[custom_groups]]
 name = "📺 Iqiyi"
-type = "select`[]DIRECT`[]🎯 Global`[]🇨🇳 China`[]🇨🇳 Taiwan`[]🇭🇰 Hong Kong
+type = "select`[]DIRECT`[]🎯 Global`[]🇨🇳 China`[]🇨🇳 Taiwan`[]🇭🇰 HongKong
 [[custom_groups]]
 name = "🌍 ProxyMedia"
-type = "select`[]♻️ Auto`[]🔮 Load-Balance`[]🌏 Main World`[]🌏 Third World`[]🚀 Proxy`[]🚀 Manual
+type = "select`[]♻️ Auto`[]🔮 Load-Balance`[]🌏 MainWorld`[]🌏 ThirdWorld`[]🚀 Proxy`[]🚀 Manual
 [[custom_groups]]
 name = "🌏 ChinaMedia"
-type = "select`[]DIRECT`[]🎯 Global`[]🇨🇳 China`[]🇨🇳 Taiwan`[]🇭🇰 Hong Kong
+type = "select`[]DIRECT`[]🎯 Global`[]🇨🇳 China`[]🇨🇳 Taiwan`[]🇭🇰 HongKong
 [[custom_groups]]
 name = "🪙 Binance"
 type = "select`[]🇸🇬 Singapore`[]🇯🇵 Japan`[]🇺🇲 United States`[]🇰🇷 Korea`[]🇬🇧 Great Britain`[]🇩🇪 Germany`[]🚀 Proxy`[]🚀 Manual
 [[custom_groups]]
 name = "Ⓜ️ OneDrive"
-type = "select`[]🔮 Load-Balance`[]🇨🇳 China`[]🌏 Main World`[]🌏 Third World`[]DIRECT`[]🚀 Proxy`[]🚀 Manual
+type = "select`[]🔮 Load-Balance`[]🇨🇳 China`[]🌏 MainWorld`[]🌏 ThirdWorld`[]DIRECT`[]🚀 Proxy`[]🚀 Manual
 [[custom_groups]]
 name = "Ⓜ️ Microsoft"
-type = "select`[]DIRECT`[]🎯 Global`[]🇨🇳 China`[]🇺🇲 United States`[]🇭🇰 Hong Kong`[]🇨🇳 Taiwan`[]🇯🇵 Japan`[]🇸🇬 Singapore`[]🇰🇷 Korea`[]🇬🇧 Great Britain`[]🇩🇪 Germany`[]🌏 Main World`[]🌏 Third World`[]🚀 Proxy`[]🚀 Manual
+type = "select`[]DIRECT`[]🎯 Global`[]🇨🇳 China`[]🇺🇲 United States`[]🇭🇰 HongKong`[]🇨🇳 Taiwan`[]🇯🇵 Japan`[]🇸🇬 Singapore`[]🇰🇷 Korea`[]🇬🇧 Great Britain`[]🇩🇪 Germany`[]🌏 MainWorld`[]🌏 ThirdWorld`[]🚀 Proxy`[]🚀 Manual
 [[custom_groups]]
 name = "🍎 Apple"
-type = "select`[]DIRECT`[]🎯 Global`[]🇨🇳 China`[]🇺🇲 United States`[]🇭🇰 Hong Kong`[]🇨🇳 Taiwan`[]🇸🇬 Singapore`[]🇯🇵 Japan`[]🇰🇷 Korea`[]🇬🇧 Great Britain`[]🇩🇪 Germany`[]🌏 Third World`[]🚀 Proxy`[]🚀 Manual
+type = "select`[]DIRECT`[]🎯 Global`[]🇨🇳 China`[]🇺🇲 United States`[]🇭🇰 HongKong`[]🇨🇳 Taiwan`[]🇸🇬 Singapore`[]🇯🇵 Japan`[]🇰🇷 Korea`[]🇬🇧 Great Britain`[]🇩🇪 Germany`[]🌏 ThirdWorld`[]🚀 Proxy`[]🚀 Manual
 [[custom_groups]]
 name = "🎮 Game"
-type = "select`[]🎮 Game Proxy`[]DIRECT`[]🇺🇲 United States`[]🇭🇰 Hong Kong`[]🇨🇳 Taiwan`[]🇸🇬 Singapore`[]🇯🇵 Japan`[]🇰🇷 Korea`[]🇬🇧 Great Britain`[]🇩🇪 Germany`[]🌏 Third World`[]🚀 Proxy`[]🚀 Manual
+type = "select`[]🎮 GameProxy`[]DIRECT`[]🇺🇲 United States`[]🇭🇰 HongKong`[]🇨🇳 Taiwan`[]🇸🇬 Singapore`[]🇯🇵 Japan`[]🇰🇷 Korea`[]🇬🇧 Great Britain`[]🇩🇪 Germany`[]🌏 ThirdWorld`[]🚀 Proxy`[]🚀 Manual
 [[custom_groups]]
 name = "🎯 Global"
-type = "select`[]DIRECT`[]🇨🇳 China-Auto`[]🇨🇳 China`[]🇭🇰 Hong Kong`[]🇨🇳 Taiwan`[]🚀 Manual
+type = "select`[]DIRECT`[]🇨🇳 China-Auto`[]🇨🇳 China`[]🇭🇰 HongKong`[]🇨🇳 Taiwan`[]🚀 Manual
 [[custom_groups]]
 name = "🐟 Final"
-type = "select`[]♻️ Auto`[]🔮 Load-Balance`[]🎯 Global`[]🌏 Main World`[]🌏 Third World`[]🚀 Proxy`[]🚀 Manual
+type = "select`[]♻️ Auto`[]🔮 Load-Balance`[]🎯 Global`[]🌏 MainWorld`[]🌏 ThirdWorld`[]🚀 Proxy`[]🚀 Manual
 [[custom_groups]]
 name = "🆎 AdBlock"
 type = "select`[]REJECT`[]🎯 Global
