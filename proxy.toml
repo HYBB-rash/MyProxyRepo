@@ -4,6 +4,11 @@ version = 1
 enable_rule_generator = true
 overwrite_original_rules = true
 
+rename="!!GROUPID=0!!(^.*)@TAG - $1"
+rename="!!GROUPID=1!!(^.*)@库洛米 - $1"
+rename="!!GROUPID=2!!(^.*)@Orange - $1"
+rename="!!GROUPID=3!!(^.*)@奶昔 - $1"
+
 clash_rule_base = "https://raw.githubusercontent.com/HYBB-rash/MyProxyRepo/main/clash_tmpl.yaml"
 quanx_rule_base = "https://raw.githubusercontent.com/HYBB-rash/MyProxyRepo/main/qx.ini"
 surge_rule_base = "https://raw.githubusercontent.com/HYBB-rash/MyProxyRepo/main/surge.conf"
