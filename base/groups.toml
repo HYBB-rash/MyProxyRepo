@@ -69,7 +69,9 @@ rule = [[]🇸🇬 Singapore, []🇭🇰 HongKong, []🇨🇳 Taiwan, []🇯🇵
 
 [[custom_groups]]
 name = "📺 Bahamut"
-type = "select, []🇨🇳 Taiwan, []🚀 Proxy, []🚀 Manual
+type = "select"
+rule = [[]🇨🇳 Taiwan, []🚀 Proxy, []🚀 Manual]
+
 [[custom_groups]]
 name = "🌩️ XunLei"
 type = "select, []DIRECT, []🎯 Global, []🇨🇳 China
