@@ -65,7 +65,7 @@ rule = ["[]♻️ Auto", "[]🔮 LoadBalance", "[]🌏 MainWorld", "[]🌏 Third
 [[custom_groups]]
 name = "🎥 Netflix"
 type = "select"
-rule = ["[]🇸🇬 Singapore", []🇭🇰 HongKong, []🇨🇳 Taiwan, []🇯🇵 Japan, "[]🇺🇲 UnitedStates", []🇰🇷 Korea, []🇬🇧 GreatBritain, []🇩🇪 Germany, "[]🚀 Proxy", "[]🚀 Manual"]
+rule = ["[]🇸🇬 Singapore", []🇭🇰 HongKong, []🇨🇳 Taiwan, "[]🇯🇵 Japan", "[]🇺🇲 UnitedStates", []🇰🇷 Korea, []🇬🇧 GreatBritain, []🇩🇪 Germany, "[]🚀 Proxy", "[]🚀 Manual"]
 
 [[custom_groups]]
 name = "📺 Bahamut"
@@ -98,7 +98,7 @@ rule = [[]DIRECT, []🎯 Global, []🇨🇳 China, []🇨🇳 Taiwan, []🇭🇰
 [[custom_groups]]
 name = "🪙 Binance"
 type = "select"
-rule = ["[]🇸🇬 Singapore", []🇯🇵 Japan, "[]🇺🇲 UnitedStates", []🇰🇷 Korea, []🇬🇧 GreatBritain, []🇩🇪 Germany, "[]🚀 Proxy", "[]🚀 Manual"]
+rule = ["[]🇸🇬 Singapore", "[]🇯🇵 Japan", "[]🇺🇲 UnitedStates", []🇰🇷 Korea, []🇬🇧 GreatBritain, []🇩🇪 Germany, "[]🚀 Proxy", "[]🚀 Manual"]
 
 [[custom_groups]]
 name = "Ⓜ️ OneDrive"
@@ -106,17 +106,17 @@ type = "select, "[]🔮 LoadBalance", []🇨🇳 China, "[]🌏 MainWorld", "[]�
 [[custom_groups]]
 name = "Ⓜ️ Microsoft"
 type = "select"
-rule = [[]DIRECT, []🎯 Global, []🇨🇳 China, "[]🇺🇲 UnitedStates", []🇭🇰 HongKong, []🇨🇳 Taiwan, []🇯🇵 Japan, "[]🇸🇬 Singapore", []🇰🇷 Korea, []🇬🇧 GreatBritain, []🇩🇪 Germany, "[]🌏 MainWorld", "[]🌏 ThirdWorld", "[]🚀 Proxy", "[]🚀 Manual"]
+rule = [[]DIRECT, []🎯 Global, []🇨🇳 China, "[]🇺🇲 UnitedStates", []🇭🇰 HongKong, []🇨🇳 Taiwan, "[]🇯🇵 Japan", "[]🇸🇬 Singapore", []🇰🇷 Korea, []🇬🇧 GreatBritain, []🇩🇪 Germany, "[]🌏 MainWorld", "[]🌏 ThirdWorld", "[]🚀 Proxy", "[]🚀 Manual"]
 
 [[custom_groups]]
 name = "🍎 Apple"
 type = "select"
-rule = [[]DIRECT, []🎯 Global, []🇨🇳 China, "[]🇺🇲 UnitedStates", []🇭🇰 HongKong, []🇨🇳 Taiwan, "[]🇸🇬 Singapore", []🇯🇵 Japan, []🇰🇷 Korea, []🇬🇧 GreatBritain, []🇩🇪 Germany, "[]🌏 ThirdWorld", "[]🚀 Proxy", "[]🚀 Manual"]
+rule = [[]DIRECT, []🎯 Global, []🇨🇳 China, "[]🇺🇲 UnitedStates", []🇭🇰 HongKong, []🇨🇳 Taiwan, "[]🇸🇬 Singapore", "[]🇯🇵 Japan", []🇰🇷 Korea, []🇬🇧 GreatBritain, []🇩🇪 Germany, "[]🌏 ThirdWorld", "[]🚀 Proxy", "[]🚀 Manual"]
 
 [[custom_groups]]
 name = "🎮 Game"
 type = "select"
-rule = [[]🎮 GameProxy, []DIRECT, "[]🇺🇲 UnitedStates", []🇭🇰 HongKong, []🇨🇳 Taiwan, "[]🇸🇬 Singapore", []🇯🇵 Japan, []🇰🇷 Korea, []🇬🇧 GreatBritain, []🇩🇪 Germany, "[]🌏 ThirdWorld", "[]🚀 Proxy", "[]🚀 Manual"]
+rule = [[]🎮 GameProxy, []DIRECT, "[]🇺🇲 UnitedStates", []🇭🇰 HongKong, []🇨🇳 Taiwan, "[]🇸🇬 Singapore", "[]🇯🇵 Japan", []🇰🇷 Korea, []🇬🇧 GreatBritain, []🇩🇪 Germany, "[]🌏 ThirdWorld", "[]🚀 Proxy", "[]🚀 Manual"]
 
 [[custom_groups]]
 name = "🎯 Global"
