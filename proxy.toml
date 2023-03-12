@@ -11,22 +11,8 @@ append_proxy_type=true
 interval=86400
 exclude_remarks=["(Traffic Reset|Expire Date|Premium|套餐到期|重置|官网|官网)"]
 
-
 [[rename_node]]
-match="!!GROUPID=0!!(^.*)"
-replace="TAG - $1"
-
-[[rename_node]]
-match="!!GROUPID=1!!(^.*)"
-replace="库洛米 - $1"
-
-[[rename_node]]
-match="!!GROUPID=2!!(^.*)"
-replace="Orange - $1"
-
-[[rename_node]]
-match="!!GROUPID=3!!(^.*)"
-replace="奶昔 - $1"
+import = ""
 
 [[rulesets]]
 import = "https://raw.githubusercontent.com/HYBB-rash/MyProxyRepo/main/base/rulesets.toml"
