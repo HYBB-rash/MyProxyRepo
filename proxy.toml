@@ -8,13 +8,6 @@ quanx_rule_base = "https://raw.githubusercontent.com/HYBB-rash/MyProxyRepo/main/
 surge_rule_base = "https://raw.githubusercontent.com/HYBB-rash/MyProxyRepo/main/surge.conf"
 
 [[rename_node]]
-rename="!!GROUPID=0!!(^.*)@TAG - $1"
-rename="!!GROUPID=1!!(^.*)@库洛米 - $1"
-rename="!!GROUPID=2!!(^.*)@Orange - $1"
-rename="!!GROUPID=3!!(^.*)@ - $1"
-
-
-[[rename_node]]
 match="!!GROUPID=0!!(^.*)"
 replace="TAG - $1"
 
