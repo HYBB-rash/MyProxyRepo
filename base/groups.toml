@@ -26,9 +26,12 @@ rule = ["[]♻️ Auto", "[]🔮 LoadBalance", "[]🌏 MainWorld", "[]🌏 Third
 name = "🚀 Manual"
 type = "select"
 rule = [".*"]
+
 [[custom_groups]]
 name = "😡 Nint"
-type = "select``[]DIRECT`[]🎯 Global`[]🇨🇳 China`(Nint)
+type = "select"
+rule = ["[]DIRECT", "[]🎯 Global", "[]🇨🇳 China", "(Nint)"]
+
 [[custom_groups]]
 name = "📲 Telegram"
 type = "select`[]♻️ Auto`[]🔮 LoadBalance`[]🇸🇬 Singapore`[]🇭🇰 HongKong`[]🇨🇳 Taiwan`[]🇯🇵 Japan`[]🇺🇲 UnitedStates`[]🇰🇷 Korea`[]🇬🇧 GreatBritain`[]🇩🇪 Germany`[]🌏 ThirdWorld`[]🚀 Proxy`[]🚀 Manual
