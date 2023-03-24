@@ -1,6 +1,6 @@
-HOST,openai.com
-HOST,chat.openai.com
-HOST,challenges.cloudflare.com
-HOST,auth0.openai.com
-HOST,platform.openai.com
-HOST,ai.com
+HOST,openai.com,chatgpt
+HOST,chat.openai.com,chatgpt
+HOST,challenges.cloudflare.com,chatgpt
+HOST,auth0.openai.com,chatgpt
+HOST,platform.openai.com,chatgpt
+HOST,ai.com,chatgpt
